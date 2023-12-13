@@ -30,6 +30,17 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 docker exec -it ollama ollama run orca-mini
 ```
 
+### CURC
+
+```
+singularity pull ollama.sif docker://ollama/ollama:latest
+
+singularity run ollama.sif
+
+singularity exec ollama.sif ollama run orca-mini
+```
+
+Watch for `~/home/` size with `du -H .` or `curc-quota`
 https://ollama.ai/blog/ollama-is-now-available-as-an-official-docker-image
 
 See this page for details
