@@ -24,7 +24,7 @@ Install Ollama if you have enough RAM & Storage  (8 GB RAM, 10 GB Disk) from:
 
 Else use CURC or AWS VM
 
-See for details
+See this page for details
 
 https://github.com/jmorganca/ollama
 
