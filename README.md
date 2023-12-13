@@ -41,6 +41,9 @@ singularity exec ollama.sif ollama run orca-mini
 ```
 
 Watch for `~/home/` size with `du -H .` or `curc-quota`
+
+https://curc.readthedocs.io/en/latest/software/Containerizationon.html?highlight=docker%20containers#singularity
+
 https://ollama.ai/blog/ollama-is-now-available-as-an-official-docker-image
 
 See this page for details
