@@ -24,9 +24,11 @@ Install Ollama if you have enough RAM & Storage  (8 GB RAM, 10 GB Disk) from:
 
 Else use CURC or AWS VM with
 
+```
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 
 docker exec -it ollama ollama run orca-mini
+```
 
 See this page for details
 
